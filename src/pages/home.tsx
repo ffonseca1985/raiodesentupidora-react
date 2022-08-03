@@ -4,8 +4,20 @@ import { BtnWhatsApp } from "../componentes/whatsApp";
 import pix106png from "../assets/images/pix-106.png";
 import cartoespng from "../assets/images/cartoes.png";
 import Boletopng from "../assets/images/Boleto.png";
+import { useParams } from 'react-router-dom';
+import { BntFaleConoscoMobile } from "../componentes/faleConosco";
 
 const Home: React.FC<{}> = () => {
+
+    let titulo : string = "Desentupidora 24 horas";
+
+    var {name} = useParams();    
+
+    if (name && name != null){
+        titulo += ` ${name}`
+    }
+
+
     return (
         <React.Fragment>
 
@@ -15,7 +27,7 @@ const Home: React.FC<{}> = () => {
                     <div className="row no-gutters slider-text align-items-center">
                         <div className="d-flex align-items-end">
                             <div className="text w-100">
-                                <h1 className="mb-2">Desentupidora 24 horas</h1>
+                                <h1 className="mb-2">{titulo}</h1>
                                 <p className="mb-2">Entupiu? Nós resolvemos seu problema</p>
                                 <p className="mb-2">Orçamento Grátis, faça agora mesmo!! 90 dias de Garantia!, Desentupidora de
                                     Pias, Esgoto, Caixa de Gordura, Ralo, Vaso
@@ -33,9 +45,7 @@ const Home: React.FC<{}> = () => {
                                 </div>
 
                                 <div className="block-left col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                                    <a href="contato.html" aria-label="Contato"
-                                        className="btn btn-danger margin-btn col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <b>ENVIE UMA MENSAGEM</b></a>
+                                    <BntFaleConoscoMobile />
                                 </div>
 
                             </div>

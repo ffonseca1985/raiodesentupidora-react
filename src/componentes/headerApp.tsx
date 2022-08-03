@@ -31,32 +31,6 @@ const HeaderApp: React.FC<{}> = ({ }) => {
                                 NOSSOS SERVIÇOS
                             </Link>
                         </li>
-                        <li className="nav-item navbar-nav ml-auto">
-                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                REGIÕES
-                            </a>
-                            <div className="dropdown-menu" style={{ "backgroundColor": "#256eb9", "fontWeight": "bold" }} aria-labelledby="navbarDropdownMenuLink">
-                                <a className="nav-link"
-                                    href="https://raiodesentupidora.com.br/desentupidora-em-guarulhos.html">DESENTUPIDORA EM
-                                    GUARULHOS</a>
-                                <a className="nav-link"
-                                    href="https://raiodesentupidora.com.br/desentupidora-na-zona-norte.html">DESENTUPIDORA
-                                    NA ZONA NORTE</a>
-                                <a className="nav-link"
-                                    href="https://raiodesentupidora.com.br/desentupidora-na-zona-leste.html">DESENTUPIDORA
-                                    NA ZONA LESTE</a>
-                                <a className="nav-link"
-                                    href="https://raiodesentupidora.com.br/desentupidora-na-zona-oeste.html">DESENTUPIDORA
-                                    NA ZONA OESTE</a>
-                                <a className="nav-link"
-                                    href="https://raiodesentupidora.com.br/desentupidora-na-zona-sul.html">DESENTUPIDORA NA
-                                    ZONA SUL</a>
-                                <a className="nav-link" href="https://raiodesentupidora.com.br/grande-sp.html">DESENTUPIDORA NA
-                                    GRANDE SP</a>
-
-                            </div>
-                        </li>
                         <li className="nav-item">
                             <Link aria-label="Contato" to={"contato"} className="nav-link">CONTATO</Link>
                         </li>

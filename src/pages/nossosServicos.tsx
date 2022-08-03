@@ -8,6 +8,7 @@ import desentupidoradecanojpg from "../assets/images/desentupidora-de-cano.jpg"
 import empresadesaneamentjpg from "../assets/images/empresa-de-saneamento.jpg"
 
 const QuemSomos: React.FC<{}> = () => {
+
     return (
 
         <React.Fragment>
@@ -17,8 +18,7 @@ const QuemSomos: React.FC<{}> = () => {
                 <div className="container">
                     <div className="row no-gutters slider-text align-items-end justify-content-center">
                         <div className="col-md-9  mb-5 text-center">
-                            <p className="breadcrumbs mb-0"><span className="mr-2">
-                                <a href="index.html">Home <i className="fa fa-chevron-right"></i></a></span>
+                            <p className="breadcrumbs mb-0"><span className="mr-2"></span>
                                 <span>Nossos Serviços <i className="fa fa-chevron-right"></i></span>
                             </p>
                             <h1 className="mb-0 bread">NOSSOS SERVIÇOS</h1>

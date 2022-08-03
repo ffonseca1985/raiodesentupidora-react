@@ -2,6 +2,7 @@ import React, { Fragment } from "react"
 import sliderinternofundojpg from "../assets/images/slider-interno-fundo.jpg"
 import desentupidoradeesgotoemsapopembajpg from "../assets/images/desentupidora-de-esgoto-em-sapopemba.jpg";
 import { BtnWhatsApp } from "../componentes/whatsApp";
+import BntFaleConosco from "../componentes/faleConosco";
 
 const QuemSomos: React.FC<{}> = () => {
     return (
@@ -15,9 +16,7 @@ const QuemSomos: React.FC<{}> = () => {
                         </div>
                     </div>
                     <BtnWhatsApp />
-                    <div className="block-left">
-                        <a href="contato.html" className="btn btn-danger margin-btn">FALE CONOSCO</a>
-                    </div>
+                    <BntFaleConosco />
                 </div>
             </section>
 
