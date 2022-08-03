@@ -11,12 +11,11 @@ const Home: React.FC<{}> = () => {
 
     let titulo : string = "Desentupidora 24 horas";
 
-    var {name} = useParams();    
+    var {param} = useParams();    
 
-    if (name && name != null){
-        titulo += ` ${name}`
+    if (param && param != null){
+        titulo += ` ${param}`
     }
-
 
     return (
         <React.Fragment>
