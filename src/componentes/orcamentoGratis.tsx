@@ -101,7 +101,7 @@ const OrcamentoGratis: React.FC<{}> = () => {
                                 <div className="form-group">
                                     <label className="label" htmlFor="name">Nome</label>
                                     <input type="text"
-                                        {...register("name", { required: true })}
+                                        {...register("name")}
                                         className="form-control"
                                         name="name"
                                         placeholder="Nome" />
